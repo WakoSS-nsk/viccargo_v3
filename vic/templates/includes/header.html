@@ -1,0 +1,66 @@
+{% load static %}
+<nav class="navbar navbar-light" style="background-color: #024f59" aria-expanded="true">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="{% url 'web:web_main' %}">
+      <img
+              src="{% static 'img/plane_logo_2.png' %}"
+              width="293"
+              height="113"
+              class="d-inline-block align-top"
+              alt=""
+      >
+    </a>
+      <ul class="nav nav-pills">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"
+             href="#" id="navbarDarkDropdownMenuLink" role="button"
+             data-bs-toggle="dropdown" aria-expanded="false"
+             style="background-color: #c8d4d0; color: #024f59">
+            НАШИ УСЛУГИ
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="background-color: #c8d4d0; color: #024f59"
+             {% if view_name  == 'delivery:delivery' %}active{% endif %}
+             href="{% url 'delivery:delivery' %} ">ДОСТАВКА</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="background-color: #c8d4d0; color: #024f59"
+             {% if view_name  == 'buyout:buyout_options' %}active{% endif %}
+             href="{% url 'buyout:buyout_options' %}">ВЫКУП</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="background-color: #c8d4d0; color: #024f59"
+             {% if view_name  == 'search:suppliers_search' %}active{% endif %}
+             href="{% url 'search:suppliers_search' %}">ПОИСК ПОСТАВЩИКА</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="background-color: #c8d4d0; color: #024f59"
+             {% if view_name  == 'packing:packing_options' %}active{% endif %}
+             href="{% url 'packing:packing_options' %}">УПАКОВКА</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="background-color: #c8d4d0; color: #024f59"
+             {% if view_name  == 'reviews:reviews' %}active{% endif %}
+             href="{% url 'reviews:reviews' %}">ОТЗЫВЫ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="background-color: #c8d4d0; color: #024f59"
+             {% if view_name  == 'contacts:contacts' %}active{% endif %}
+             href="{% url 'contacts:contacts' %}">КОНТАКТЫ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="background-color: #c8d4d0; color: #024f59"
+             {% if view_name  == 'about:about_us' %}active{% endif %}
+             href="{% url 'about:about_us' %}">О НАС</a>
+        </li>
+      </ul>
+
+  </div>
+</nav>
