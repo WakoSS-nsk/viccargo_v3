@@ -1,7 +1,7 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="ru">
-  <head>    
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="{% static 'img/fav/fav.ico'%}" type="image">
@@ -22,22 +22,25 @@
     <meta name="msapplication-TileColor" content="#000">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/nav/effects.css' %}">
+    <link rel="stylesheet" href="{% static 'css/web/index.css' %}">
     <script  type="text/javascript"
              src="{% static 'jss/bootstrap.bundle.min.js' %}"></script>
+    <script src="https://kit.fontawesome.com/50335822f0.js"
+            crossorigin="anonymous"></script>
     <title>{% block title %}{% endblock %}
     </title>
   </head>
-  <body style="background-color: #c8d4d0">
+  <body style="background-color: white; overflow: scroll">
     <header>
-      {% include 'includes/header.html' %}          
+      {% include 'includes/header.html' %}
     </header>
     <main>
-      <div class="container py-5">
         {% block content %}
         {% endblock %}
-      </div>
     </main>
-    <footer class="border-top text-center py-3">
-      {% include 'includes/footer.html' %} 
+    <footer class="sticky-bottom text-center py-3"
+            style="background-color: black">
+      {% include 'includes/footer.html' %}
     </footer>
   </body>

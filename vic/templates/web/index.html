@@ -1,7 +1,73 @@
 {% extends 'base.html' %}
+{% load static %}
 {% block title %}
-  VIC || ВАШ НАДЕЖНЫЙ ПАРТНЕР
+VIC || ВАШ НАДЕЖНЫЙ ПАРТНЕР
 {% endblock %}
-<div class="container mb-5">
-
+{% block content %}
+<div class="banner">
+  <div class="container">
+    <h1>Доставка грузов из Китая<br>
+      Любые объёмы<br>
+      В самые короткие сроки<br>
+    </h1>
+  </div>
 </div>
+<div class="mid">
+  <div class="row row-cols-auto">
+    <img class="question" src="{% static 'img/web/question.png' %}">
+    <div class="col m-auto">
+      <h1>Почему<br>
+        именно<br>
+        мы?
+      </h1>
+    </div>
+    <div class="col m-auto">
+      <p>Мы помогаем найти партнеров и выстроить<br>
+        с ними долгосрочные отношения. <br>
+        Наши менеджеры берут на себя все задачи:<br>
+      <ul class="rectangle-list">
+        <li><a href="">подбор оптимального поставщика
+          на территории Китая</a></li>
+        <li><a href="">заключение международного
+          контракта на трех языках</a></li>
+        <li><a href="">подбор кода ТН ВЭД</a></li>
+        <li><a href="">доставка вашего груза через различные порты<br>
+          и жд станции Китая, России и других стран</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="low">
+  <div class="row row-cols-auto">
+    <div class="col m-auto">
+      <h1 class="upper_h">Наши услуги</h1>
+    </div>
+  </div>
+</div>
+<div class="low_row">
+  <div class="row row-cols-auto">
+    <img class="truck-mount" src="{% static 'img/web/truck_mountain_1.png' %}">
+    <div class="col m-auto">
+      <ul class="fa-ul">
+        <li><span class="fa-li"><i class="fa-solid fa-truck-fast"></i></span>
+          <a href="">Доставка</a>
+        </li>
+        <li><span class="fa-li"><i class="fa-solid fa-users"></i></span>
+          <a href="">Поиск поставщиков в Китае</a>
+        </li>
+        <li><span class="fa-li"><i class="fa-solid fa-boxes-stacked"></i></span>
+          <a href="">Поиск товаров в Китае</a>
+        </li>
+        <li><span class="fa-li"><i class="fa-solid fa-handshake"></i></span>
+          <a href="">Выкуп</a>
+        </li>
+        <li><span class="fa-li"><i class="fa-solid fa-boxes-packing"></i></span>
+          <a href="">Упаковка</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

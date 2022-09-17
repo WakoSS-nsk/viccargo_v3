@@ -1,66 +1,66 @@
 {% load static %}
-<nav class="navbar navbar-light" style="background-color: #024f59" aria-expanded="true">
+<nav class="navbar navbar-expand-lg navbar-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="{% url 'web:web_main' %}">
+    <a class="navbar-brand p-0 me-2" href="{% url 'web:web_main' %}">
       <img
-              src="{% static 'img/plane_logo_2.png' %}"
-              width="293"
-              height="113"
+              src="{% static 'img/plane_logo.png' %}"
+              width="280"
+              height="110"
               class="d-inline-block align-top"
               alt=""
       >
     </a>
-      <ul class="nav nav-pills">
-
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle"
              href="#" id="navbarDarkDropdownMenuLink" role="button"
-             data-bs-toggle="dropdown" aria-expanded="false"
-             style="background-color: #c8d4d0; color: #024f59">
+             data-bs-toggle="dropdown" aria-expanded="false">
             НАШИ УСЛУГИ
           </a>
-          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+          <ul class="dropdown-menu dropdown-menu-dark"
+              aria-labelledby="navbarDarkDropdownMenuLink"
+              style="background-color: black">
             <li><a class="dropdown-item" href="#">Action</a></li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" style="background-color: #c8d4d0; color: #024f59"
-             {% if view_name  == 'delivery:delivery' %}active{% endif %}
-             href="{% url 'delivery:delivery' %} ">ДОСТАВКА</a>
+          <a class="nav-link "
+             href="{% url 'delivery:delivery' %}" title="Доставка">ДОСТАВКА</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" style="background-color: #c8d4d0; color: #024f59"
-             {% if view_name  == 'buyout:buyout_options' %}active{% endif %}
-             href="{% url 'buyout:buyout_options' %}">ВЫКУП</a>
+          <a class="nav-link"
+             href="{% url 'buyout:buyout_options' %}" title="Выкуп">ВЫКУП</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" style="background-color: #c8d4d0; color: #024f59"
-             {% if view_name  == 'search:suppliers_search' %}active{% endif %}
+          <a class="nav-link"
              href="{% url 'search:suppliers_search' %}">ПОИСК ПОСТАВЩИКА</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" style="background-color: #c8d4d0; color: #024f59"
-             {% if view_name  == 'packing:packing_options' %}active{% endif %}
+          <a class="nav-link"
              href="{% url 'packing:packing_options' %}">УПАКОВКА</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" style="background-color: #c8d4d0; color: #024f59"
-             {% if view_name  == 'reviews:reviews' %}active{% endif %}
+          <a class="nav-link"
              href="{% url 'reviews:reviews' %}">ОТЗЫВЫ</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" style="background-color: #c8d4d0; color: #024f59"
-             {% if view_name  == 'contacts:contacts' %}active{% endif %}
+          <a class="nav-link"
              href="{% url 'contacts:contacts' %}">КОНТАКТЫ</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" style="background-color: #c8d4d0; color: #024f59"
-             {% if view_name  == 'about:about_us' %}active{% endif %}
+          <a class="nav-link"
              href="{% url 'about:about_us' %}">О НАС</a>
         </li>
       </ul>
-
+    </div>
   </div>
 </nav>

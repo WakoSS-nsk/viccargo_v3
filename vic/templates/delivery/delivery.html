@@ -1,26 +1,36 @@
 {% extends "base.html" %}
 {% load static %}
 {% block title %}
-Доставка товара из Китая
+VIC || Доставка товара из Китая
 {% endblock %}
 {% block content %}
 <div class="container">
-  <div class="row row-cols-2">
-    <div class="col">
-      <img src="{% static 'img/delivery/cargo_plane.png' %}">
-      <h2>АВИА</h2>
+  <div class="row row-cols-auto">
+    <div class="col m-auto text-center">
+      <a href="{% url 'delivery:air delivery' %}">
+        <img src="{% static 'img/delivery/cargo_plane.png' %}">
+      </a>
+      <h1>АВИА</h1>
     </div>
-    <div class="col">
-      <img src="{% static 'img/delivery/cargo_train.png' %}">
-      <h2>Ж/Д</h2>
+    <div class="col m-auto text-center">
+      <a href="{% url 'delivery:train delivery' %}">
+        <img src="{% static 'img/delivery/cargo_train.png' %}">
+      </a>
+      <h1>Ж/Д</h1>
     </div>
-    <div class="col">
-      <img src="{% static 'img/delivery/cargo_truck.png' %}">
-      <h2>АВТО</h2>
+  </div>
+  <div class="row row-cols-auto">
+    <div class="col m-auto text-center">
+      <a href="{% url 'delivery:road delivery' %}">
+        <img src="{% static 'img/delivery/cargo_truck.png' %}">
+      </a>
+      <h1>АВТО</h1>
     </div>
-    <div class="col">
-      <img src="{% static 'img/delivery/cargo_ship.png' %}">
-      <h2>МОРЕ</h2>
+    <div class="col m-auto text-center">
+      <a href="{% url 'delivery:ship delivery' %}">
+        <img src="{% static 'img/delivery/cargo_ship.png' %}">
+      </a>
+      <h1>МОРЕ</h1>
     </div>
   </div>
 </div>

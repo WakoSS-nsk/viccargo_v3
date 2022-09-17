@@ -4,22 +4,34 @@
 {% block content %}
 <div class="container-fluid">
   <div class="row">
-    <div class="col-5">
-      <h1>Наша команда</h1>
-      <p>
-        Большой опыт компании «Very Important Cargo» в сфере доставки грузов из
-        Китая
-        позволяет нам осуществлять этот процесс быстро и освобождать наших
-        клиентов
-        от
-        множества проблем и переживаний за сохранность и целостность грузов.
-        Сотрудники нашей компании – профессионалы в этой области,
-        поэтому мы можем гарантировать быструю доставку грузов и адекватные цены
-        на наши услуги.
-      </p>
+    <div class="col-6">
+      <div class="container text-center py-5">
+        <h1 style="font-family: Georgia; font-weight: bold"
+        >Наша команда</h1>
+      </div>
+      <div class="container-fluid pb-5 ">
+        <div class="col-8 offset-2 text-center py-3"
+             style="background-color: white; font-family: Georgia;
+border-radius: 25px; box-shadow: 4px 4px 5px black, -4px -4px 5px black">
+          <h5>
+            Большой опыт компании «Very Important Cargo» <br>
+            в сфере доставки грузов из Китая позволяет <br>
+            нам осуществлять этот процесс быстро и <br>
+            освобождать наших клиентов от множества <br>
+            проблем и переживаний за сохранность и целостность грузов.
+            Сотрудники нашей компании – профессионалы в этой области,
+            поэтому мы можем гарантировать быструю доставку грузов и адекватные
+            цены
+            на наши услуги.
+          </h5>
+        </div>
+      </div>
+      <div class="col-8 offset-3 py-4 align-content-lg-center" >
+        <img src="{% static 'img/plane_logo_3.png' %}">
+      </div>
     </div>
-    <div class="col-7">
-      <img src="{% static 'img/ships/ship_1.png' %}">
+    <div class="col-5 offset-1" style="background-image:
+    url({% static 'img/ships/ship_1.png' %}); ">
     </div>
 
 

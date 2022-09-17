@@ -1,4 +1,26 @@
-<div class="container-fluid" style="background-color: #024f59">
-  <p>© {{ year }} Copyright <span style="color:#c8d4d0">
+{% load static %}
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-2 py-2 align-self-md-center">
+      <nav class="navbar " aria-expanded="false">
+        <a class="nav-item ">
+          <img src="{% static 'img/footer/icon-instagram-40.png' %} ">
+        </a>
+        <!--Telegram-->
+        <a class="nav-item ">
+          <img src="{% static 'img/footer/icon-telegram-40.png' %} ">
+        </a>
+        <!--Whatsapp-->
+        <a class="nav-item ">
+          <img src="{% static 'img/footer/icon-whatsapp-40.png' %} ">
+        </a>
+      </nav>
+      <!--Instagram-->
+
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <p style="color: white">© {{ year }} Copyright <span>
     Very Important Cargo</span></p>
 </div>
