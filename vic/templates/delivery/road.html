@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+VIC || Автодоставка
+{% endblock %}
+{% block content %}
+<div class="truck-page">
+  <div class="container-fluid">
+    <div class="truck-top">
+      <div class="row row-cols-auto">
+        <h1 class="truck-header">АВТО</h1>
+        <h1 class="truck-header-2">АВТО ДОСТАВКА</h1>
+        <div class="d-grid">
+          <div class=dates-list>
+            <div class="col m-1">
+              <h3 class="dates">сроки доставки</h3>
+              <ul>
+                <li><span class="dates-li"><i class="fa-solid fa-truck"></i>
+                </span>Обычное Авто 18-25 дней
+                </li>
+                <li><span class="dates-li">
+                  <i class="fa-solid fa-truck-fast"></i>
+                </span>Экспресс Авто 15-20 дней
+                </li>
+
+              </ul>
+            </div>
+          </div>
+          <div class="advantages">
+            <div class="col m-auto">
+              <h2 class="advantages-truck-h">
+                ПРЕИМУЩЕСТВА
+              </h2>
+              <ul class="fa-ul">
+                <li class="fa-li"><span><i class="fa-solid fa-scale-balanced">
+                  </i></span>Оптимальное сочетание стоимости услуги
+                  и скорости доставки
+                </li>
+                <li class="fa-li"><span>
+                  <i class="fa-solid fa-truck-ramp-box"></i></span>Формирование
+                  любых сборных грузов из Китая
+                </li>
+                <li class="fa-li"><span><i class="fa-solid fa-door-open"></i>
+        </span>Возможность доставки «до двери»
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="truck-mid">
+      <div class="row-cols-auto">
+        <h2 class="truck-description-h">
+          особенности
+        </h2>
+        <div class="row row-cols-auto">
+          <div class="truck-description">
+            <div class="col m-auto">
+              <p>Доставка из Китая автотранспортом часто является самым
+                рациональным вариантом,<br> которым пользуется большинство
+                предпринимателей. <br>
+                Дорожная сеть позволяет доставить груз практически в любую
+                точку РФ,<br> даже до двери клиента.</p>
+            </div>
+            <div class="col m-auto">
+              <p>Перевозки выполняются автотранспортными средствами, оптимально
+                соответствующими<br> виду товара, требованиям по
+                грузоподъёмности и типу загрузки (верхний, боковой, задний).<br>
+                Исключается возможность перегрузки товара на другое ТС во
+                время пути,<br> что способствует его сохранности.
+              </p>
+            </div>
+            <div class="col m-auto">
+              <p>Доставка сборных грузов из Китая в Россию даёт возможность <br>
+                объединить различные грузы и снизить расходы клиента.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

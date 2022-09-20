@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+VIC || ЖД доставка
+{% endblock %}
+{% block content %}
+
+<div class="train-page">
+  <div class="container-fluid">
+    <div class="train-top">
+      <div class="row row-cols-auto">
+        <h1 class="train-header">Ж/Д</h1>
+        <h1 class="train-header-2">Ж/Д ДОСТАВКА</h1>
+        <div class="d-grid">
+          <div class=dates-list>
+            <div class="col m-1">
+              <h3 class="dates">сроки доставки</h3>
+              <ul>
+                <li><span class="dates-li"><i class="fa-solid fa-train"></i>
+          </span>Долгое Ж/Д 40-45 дней
+                </li>
+                <li><span class="dates-li"><i class="fa-solid fa-train"></i>
+                </span>Экспресс Ж/Д 14-18 дней
+
+              </ul>
+            </div>
+          </div>
+          <div class="advantages">
+            <div class="col m-auto">
+              <h2 class="advantages-train-h">
+                ПРЕИМУЩЕСТВА
+              </h2>
+              <ul class="fa-ul">
+                <li class="fa-li"><span><i class="fa-solid fa-weight-hanging">
+                </i></span>Неограниченная грузоподъёмность
+                </li>
+                <li class="fa-li"><span><i class="fa-solid fa-temperature-low">
+                </i></span>Независимость от погодных условий<br>
+                  и удалённости пункта назначения
+                </li>
+                <li class="fa-li"><span><i class="fa-solid fa-shield"></i>
+        </span>Безопасность (вагоны пломбируются,<br>
+                  сохранность пломб контролируется)
+                </li>
+                <li class="fa-li"><span><i class="fa-solid fa-sack-dollar"></i>
+        </span>Невысокая стоимость
+                </li>
+                <li class="fa-li"><span><i class="fa-solid fa-boxes-stacked">
+
+                </i></span>Возможность отправки контейнеров,<br>
+                  а также небольших сборных грузов
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="train-mid">
+      <div class="row-cols-auto">
+        <h2 class="train-description-h">
+          особенности
+        </h2>
+        <div class="row row-cols-auto">
+          <div class="train-description">
+            <div class="col m-auto">
+              <p>Проверка товара перед отгрузкой является наиболее <br>
+                популярной услугой среди наших клиентов.<br>
+                Это важный этап в процессе контроля качества перед отправкой
+                Вашего груза.</p>
+            </div>
+            <div class="col m-auto">
+              <p>Наши инспекторы производят выборочный отбор готовых изделий и
+                <br>оценку их качества. По окончанию инспекции вы получите <br>
+                подробный отчет с фотоматериалами о состоянии заказа.
+              </p>
+            </div>
+            <div class="col m-auto">
+              <p>Проверка производится по запросу клиента, чтобы убедиться
+                в том, <br> что фабрика/поставщик отгрузил на склад верный
+                товар.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
