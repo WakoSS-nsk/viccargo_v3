@@ -69,7 +69,9 @@ VIC || ВАШ НАДЕЖНЫЙ ПАРТНЕР
     </div>
   </div>
 </div>
-<div style="margin:80px">
+<div class="contact-form" id="contact-form">
+  <div class="row row-cols-auto justify-content-center">
+    <div class="col-sm-6">
     <h1>Оставьте заявку на бесплатную консультацию</h1>
     <p>
         Пожалуйста, напишите свое имя, адрес электронной почты и телефон.
@@ -77,13 +79,16 @@ VIC || ВАШ НАДЕЖНЫЙ ПАРТНЕР
     <form method="post">
         {% csrf_token %}
         {{ form.first_name}}
-        {{ form.last_name}}
         {{ form.email}}
         {{ form.phone_number}}
-        <button type="submit">Отправить</button>
-      <p>«Нажимая на кнопку, вы даете согласие на обработку персональных
+        <button class='button' type="submit">Отправить</button>
+      <p class="agreement">«Нажимая на кнопку, вы даете согласие на обработку персональных
         данных<br> и соглашаетесь c политикой конфиденциальности»</p>
     </form>
+  </div>
+  </div>
+
+
 </div>
 
 {% endblock %}

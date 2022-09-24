@@ -1,70 +1,86 @@
 {% extends "base.html" %}
 {% load static %}
 {% block title %}
-Выкуп товара в Китае
+VIC || Выкуп товара в Китае
 {% endblock %}
 {% block content %}
-<div class="container-fluid " style="border-color: #024f59" >
-  <div class="row gx-5 py-4">
-    <div class="col-2 border-box-sizing ">
-      <img src="{% static 'img/buyout/m_glasses.png' %}">
-    </div>
-    <div class="col-4 py-4">
-      <div class="container-fluid py-4 "
-           style="background-color: #024f59; border-radius: 25px;
-      box-shadow: 4px 4px 5px black, -4px -4px 5px black ">
-        <h1 style="font-family: Georgia; font-weight: bold; color: white"
-        >Выкуп товара в Китае
-        </h1>
-        <p style="color: white; font-family: Georgia"
-        >Выкуп товаров нередко вызывает проблемы у предпринимателя в начале
-          работы с Китаем. Одна из главных задач Delivery Way – упростить для
-          наших клиентов выкуп и доставку товаров из Китая в Россию.</p>
-        <p style="color: white; font-family: Georgia"
-        >При покупке через интернет, первое, что нужно сделать, это выбрать
-          интернет-площадку для закупа товаров из Китая и найти на ней нужный
-          товар. Если Вы не знаете, как найти нужный товар в Китае, мы сделаем
-          это
-          за Вас <a href="">(см. Поиск поставщиков в Китае)</a>.</p>
-        <p style="color: white; font-family: Georgia"
-        >Наша компания предлагает Вам услугу по выкупу и доставке товаров из
-          Китая. Это возможно напрямую от производителей товаров или с
-          интернет-магазинов Китая: taobao.com, 1688.com, Alibaba.com,
-          Aliexpress
-          и прочих интернет-площадок.</p>
+<div class="buyout_page">
+  <div class="container-fluid">
+    <div class="buy-top">
+      <div class="row row-cols-auto">
+        <img class="dollars" src="{% static 'img/buyout/dollars.png' %}">
+        <div class="col m-auto">
+          <h1>выкуп<br>
+            товара<br>
+            в китае
+          </h1>
+        </div>
+        <div class="col m-auto">
+          <p>Выкуп товаров нередко вызывает проблемы<br>
+            у предпринимателя в начале работы с Китаем.<br>
+            Существуют риски самостоятельного поиска:
+          <ul class="disadvantage-list">
+            <li><a href="">Завышенная стоимость</a></li>
+            <li><a href="">Возможность мошенничества</a></li>
+            <li><a href="">Некачественный товар</a></li>
+            <li><a href="">Неверное количество товара</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-    <div class="col-4 offset-2">
-      <div class="row justify-content-md-center gx-5">
-        <div class="col">
-          <div class="p-4">
-            <img src="https://delivery-way.ru/wp-content/uploads/2022/04/l1.svg"
-                 alt=""></div>
+    <div class="buy-mid">
+      <div class="row row-cols-auto">
+        <div class="heading">
+          <h1 class="mid-h">
+            Одна из главных задач VIC
+          </h1>
         </div>
       </div>
-      <div class="row justify-content-md-center">
+      <div class="row row-cols-auto">
         <div class="col">
-          <img src="https://delivery-way.ru/wp-content/uploads/2022/04/l2.svg"
+          <p class="description-buy">
+              Одна из главных задач VIC –<br>
+              упростить для наших клиентов выкуп и доставку товаров из Китая.
+              <br>
+              Наши менеджеры проведут переговоры с поставщиком для получения
+              <br>
+              лучшей цены, у нас крупная база собственных проверенных
+              поставщиков.<br>
+              Мы поможем заказать образцы товара перед оформлением крупного
+              заказа.<br>
+              А также наши сотрудники в Китае смогут проверить качество и<br>
+              количество товара при поступлении на наш склад.
+            </p>
+        </div>
+        <div class="col m-auto">
+          <img class='logistic' src="{% static 'img/buyout/logistic_2.png' %}">
+        </div>
+      </div>
+    </div>
+    <div class="buy-low">
+      <div class="row row-cols-auto">
+        <div class="col m-auto">
+          <img src="{% static 'img/buyout/l1.svg' %}"
+                 alt="">
+        </div>
+        <div class="col m-auto">
+          <img src="{% static 'img/buyout/l2.svg' %}"
                alt="">
         </div>
-      </div>
-      <div class="row justify-content-md-center">
-        <div class="col">
-          <img src="https://delivery-way.ru/wp-content/uploads/2022/04/l3.svg"
+        <div class="col m-auto">
+          <img src="{% static 'img/buyout/l3.svg' %}"
                alt="">
         </div>
-      </div>
-      <div class="row justify-content-md-center">
-        <div class="col">
-          <img src="https://delivery-way.ru/wp-content/uploads/2022/04/l4.svg"
+        <div class="col m-auto">
+          <img src="{% static 'img/buyout/l4.svg' %}"
                alt="">
         </div>
       </div>
     </div>
   </div>
 </div>
-</div>
-</div>
+
 
 
 {% endblock %}

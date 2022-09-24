@@ -10,6 +10,7 @@
               alt=""
       >
     </a>
+
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -18,19 +19,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle"
-             href="#" id="navbarDarkDropdownMenuLink" role="button"
-             data-bs-toggle="dropdown" aria-expanded="false">
-            НАШИ УСЛУГИ
-          </a>
-          <ul class="dropdown-menu dropdown-menu-dark"
-              aria-labelledby="navbarDarkDropdownMenuLink"
-              style="background-color: black">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
+        <li class="nav-item">
+          <a class="nav-link "
+             href="{% url 'web:web_main' %}" title="Главная">ГЛАВНАЯ</a>
         </li>
         <li class="nav-item">
           <a class="nav-link "
@@ -42,25 +33,29 @@
         </li>
         <li class="nav-item">
           <a class="nav-link"
-             href="{% url 'search:suppliers_search' %}">ПОИСК ПОСТАВЩИКА</a>
+             href="{% url 'search:suppliers_search' %}"
+             title="Поиск поставщика">ПОИСК ПОСТАВЩИКА</a>
         </li>
         <li class="nav-item">
           <a class="nav-link"
-             href="{% url 'packing:packing_options' %}">УПАКОВКА</a>
+             href="{% url 'packing:packing_options' %}"
+             title="Упаковка">УПАКОВКА</a>
         </li>
         <li class="nav-item">
           <a class="nav-link"
-             href="{% url 'reviews:reviews' %}">ОТЗЫВЫ</a>
+             href="{% url 'contacts:contacts' %}" title="Контакты">КОНТАКТЫ</a>
         </li>
         <li class="nav-item">
           <a class="nav-link"
-             href="{% url 'contacts:contacts' %}">КОНТАКТЫ</a>
-        </li>
+             href="{% url 'about:about_us' %}" title="О нас">О НАС</a>
         <li class="nav-item">
-          <a class="nav-link"
-             href="{% url 'about:about_us' %}">О НАС</a>
+          <a class="nav-link "
+             href="{% url 'web:web_main' %}#contact-form"
+             title="Рассчитать">РАССЧИТАТЬ</a>
+        </li>
         </li>
       </ul>
     </div>
+  </div>
   </div>
 </nav>

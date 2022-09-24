@@ -1,38 +1,44 @@
 {% extends "base.html" %}
 {% load static %}
-{% block title %}О нас{% endblock %}
+{% block title %}VIC || О нас{% endblock %}
 {% block content %}
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-6">
-      <div class="container text-center py-5">
-        <h1 style="font-family: Georgia; font-weight: bold"
-        >Наша команда</h1>
-      </div>
-      <div class="container-fluid pb-5 ">
-        <div class="col-8 offset-2 text-center py-3"
-             style="background-color: white; font-family: Georgia;
-border-radius: 25px; box-shadow: 4px 4px 5px black, -4px -4px 5px black">
-          <h5>
-            Большой опыт компании «Very Important Cargo» <br>
-            в сфере доставки грузов из Китая позволяет <br>
-            нам осуществлять этот процесс быстро и <br>
-            освобождать наших клиентов от множества <br>
-            проблем и переживаний за сохранность и целостность грузов.
-            Сотрудники нашей компании – профессионалы в этой области,
-            поэтому мы можем гарантировать быструю доставку грузов и адекватные
-            цены
-            на наши услуги.
-          </h5>
+<div class="about-page">
+  <div class="container-fluid">
+    <div class="row row-cols-lg-2">
+      <div class="col-lg-6">
+        <div class="about-heading">
+          <h1 >о компании</h1>
+        </div>
+        <div class="about-description">
+          <div class="container-fluid">
+            <h5>
+              Большой опыт компании «Very Important Cargo» <br>
+              в сфере доставки грузов из Китая позволяет <br>
+              нам осуществлять этот процесс быстро и <br>
+              освобождать наших клиентов от множества <br>
+              проблем и переживаний за сохранность и целостность грузов.<br>
+              Сотрудники нашей компании – профессионалы в этой области,<br>
+              поэтому мы можем гарантировать быструю доставку грузов и<br>
+              адекватные цены на наши услуги.
+            </h5>
+          </div>
+
+        </div>
+        <div class="about-bottom" >
+          <div class="container-fluid">
+            <img class='bottom-logo' src="{% static 'img/plane_logo_3.png' %}">
+          </div>
+
         </div>
       </div>
-      <div class="col-8 offset-3 py-4 align-content-lg-center" >
-        <img src="{% static 'img/plane_logo_3.png' %}">
+      <div class="right-side">
+        <div class="container-fluid">
+          <img class='ship' src="{% static 'img/ships/ship_1.png' %}">
+
       </div>
-    </div>
-    <div class="col-5 offset-1" style="background-image:
-    url({% static 'img/ships/ship_1.png' %}); ">
-    </div>
+      </div>
 
-
-    {% endblock %}
+    </div>
+  </div>
+</div>
+{% endblock %}

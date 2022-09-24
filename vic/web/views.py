@@ -4,12 +4,11 @@ from django.core.mail import send_mail, BadHeaderError
 from django.http import HttpResponse
 
 
-def send_msg(name, surname, email, phone):
+def send_msg(name, email, phone):
     subject = f"Запрос с сайта"
     body = f"""Заявка от клиента {name} 
 
     Имя: {name}
-    Фамилия: {surname}
     Телефон: {phone}
     E-mail: {email}
     
@@ -26,7 +25,6 @@ def index(request):
         if form.is_valid():
             try:
                 send_msg(form.cleaned_data['first_name'],
-                         form.cleaned_data['last_name'],
                          form.cleaned_data['email'],
                          form.cleaned_data['phone_number'])
             except BadHeaderError:

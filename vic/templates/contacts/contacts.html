@@ -1,1 +1,42 @@
 {% extends "base.html" %}
+{% load static %}
+{% block title %}VIC || Контакты{% endblock %}
+{% block content %}
+<div class="contacts-page">
+  <div class="container-fluid">
+    <div class="row row-cols-lg-2">
+      <div class="col-lg-6">
+        <div class="contacts-heading">
+          <h1 class="contacts-heading-h">контакты</h1>
+        </div>
+        <div class="contacts-logo">
+          <img src="{% static '/img/buyout/logistic.png' %}">
+        </div>
+
+      </div>
+      <div class="col-lg-6">
+        <div class="numbers">
+          <ul class="fa-ul">
+            <li><span class="fa-li"><i class="fa-solid fa-phone"></i>
+            </span>8 995 794 03 11</li>
+            <li><span class="fa-li"><i class="fa-solid fa-at"></i>
+            </span>vic.gnrl@gmail.com</li>
+            <li><span class="fa-li"><i class="fa-solid fa-location-dot"></i>
+            </span>г. Москва</li>
+            <li><span class="fa-li"><i class="fa-solid fa-location-dot"></i>
+
+            </i></span>г. Новосибирск</li>
+          </ul>
+        </div>
+        <div class="contacts-logo-1">
+          <img src="{% static '/img/plane_logo_3.png' %}">
+        </div>
+      </div>
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
+{% endblock %}

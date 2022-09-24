@@ -4,11 +4,59 @@
 VIC || Поиск поставщика
 {% endblock %}
 {% block content %}
-<div class="d-block">
-  <div class="container-fluid text-center">
-    <h1 style="color: white; font-family: Georgia; font-weight: bold">
-      ПОИСК ПОСТАВЩИКА В КИТАЕ
-    </h1>
+<div class="search-page">
+  <div class="container-fluid">
+    <div class="search-top">
+      <div class="row row-cols-auto">
+      <div class="col m-auto">
+        <h1 class="search-heading">поиск<br>поставщика<br> в китае</h1>
+      </div>
+        <div class="col ">
+        <img class="industry" src="{% static 'img/search/industry.png' %}">
+      </div>
+
+    </div>
+    </div>
+    <div class="search-mid">
+      <div class="row row-cols-auto">
+        <div class="col m-auto">
+          <h1 class="search-mid-h">
+            Нужен товар,<br> но не знаете где его найти?
+          </h1>
+          <div class="search-mid-description">
+            <p> Не проблема!<br>
+            Наши специалисты возьмут всю работу на себя.<br>
+            За 3-5 дней мы найдем подходящего для вас<br>
+            производителя товара в Китае и предоставим лучшую цену<br>
+            или найдем производителя товара по техническому заданию<br>
+          За годы успешной работы в нашей копилке <br>
+            большое количество проверенных поставщиков.</p>
+          </div>
+
+        </div>
+        <div class="col m-auto">
+          <h1 class="search-mid-h2">Почему<br> выбирают нас</h1>
+          <div class="search-list">
+            <ul class="fa-ul">
+            <li><span class="fa-li">
+              <i class="fa-solid fa-magnifying-glass-chart"></i></span>
+              <p>Производим тщательный анализ рынка</p></li>
+             <li><span class="fa-li"><i class="fa-solid fa-users"></i></span>
+              <p>Отбираем 3-х наиболее подходящих поставщиков</p></li>
+             <li><span class="fa-li"><i class="fa-solid fa-envelopes-bulk"></i>
+             </span>
+               <p>Отправляем образцы</p></li>
+             <li><span class="fa-li"><i class="fa-solid fa-hand-holding-dollar">
+
+             </i></i></span>
+               <p>Выкупаем товар</p></li>
+          </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>
 {% endblock %}
