@@ -1,0 +1,88 @@
+.about-page .container-fluid {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.about-page .container-fluid .row {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+
+.about-page .about-heading {
+    text-align: center;
+    margin: 3em;
+}
+
+
+.about-page .about-description .container-fluid {
+    text-align: center;
+    vertical-align: bottom;
+    margin: 2em auto;
+
+
+}
+
+.about-page .about-description h5 {
+    border-radius: 25px;
+    box-shadow: 4px 4px 5px black,
+    -4px -4px 5px black;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 1.5em;
+}
+
+.about-page .about-bottom .container-fluid {
+    margin: 3em auto;
+    text-align: center;
+}
+
+.about-page .right-side {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.about-page .right-side .container-fluid {
+    text-align: end;
+    padding-right: 0;
+}
+
+@media (max-width: 576px) {
+    .about-page .right-side .ship {
+        display: none;
+    }
+
+    .about-page .about-heading h1 {
+        font-weight: bold;
+        font-size: 3em;
+    }
+
+    .about-page .about-bottom .bottom-logo {
+        width: 220px;
+        heigt: 100px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1299px) {
+    .about-page .right-side .ship {
+        display: none;
+    }
+
+    .about-page .about-heading h1 {
+        font-weight: bold;
+        font-size: 5em;
+    }
+
+}
+
+@media (min-width: 1300px) {
+    .about-page .right-side .ship {
+        display: flow;
+    }
+
+    .about-page .about-heading h1 {
+        font-weight: bold;
+        font-size: 7em;
+    }
+
+}

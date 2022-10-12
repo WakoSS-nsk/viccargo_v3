@@ -1,0 +1,53 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+nav{
+    background-color: black;
+    align-items: center;
+}
+@media screen and (min-width:992px) {
+    .navbar{
+    padding: 0;
+    }
+}
+.navbar .navbar-nav{
+    margin: auto;
+}
+.navbar-collapse {
+  text-align:center;
+}
+
+
+.navbar .navbar-nav .nav-link{
+    padding: 1em 0;
+    color: #ffffff;
+}
+
+.navbar .navbar-nav .nav-item{
+    color: #ffffff;
+    position: relative;
+    margin: 0 1em;
+
+}
+.navbar .navbar-nav .nav-item::after{
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: #ffffff;
+    transition: all .4s;
+}
+.navbar .navbar-nav .nav-item:hover::after{
+    width: 100%;
+}
+.navbar{
+    background-color: #000000;
+}

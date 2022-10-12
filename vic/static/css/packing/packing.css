@@ -1,0 +1,47 @@
+@media (max-width: 576px) {
+    .packing-page .carousel-inner h1 {
+        font-size: 3em;
+        font-weight: bold;
+        text-shadow: -4px 0 5px #2c3034;
+    }
+    .packing-page .boxes {
+        display: none;
+    }
+}
+
+@media (min-width: 1300px) {
+    .packing-page .carousel-inner h1 {
+        font-size: 4em;
+        font-weight: bold;
+        text-shadow: -4px 0 5px #2c3034;
+
+    }
+}
+
+.packing-page .first-carousel .carousel-item{
+    justify-content: center;
+    text-align: center;
+}
+.packing-page .first-carousel .col {
+    margin: 2em auto;
+}
+.packing-page .carousel-inner p {
+    font-size: 1.5em;
+    color: white;
+}
+
+.packing-page .carousel-inner .container-fluid {
+    box-shadow: 5px 5px 5px black,
+    -5px -5px 5px black;
+    background-color: #2c3034;
+    border-radius: 25px;
+}
+
+
+
+.packing-page .second-carousel img {
+
+}
+.packing-page .second-carousel .col {
+    margin: 4em auto;
+}

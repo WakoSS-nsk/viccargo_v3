@@ -1,0 +1,152 @@
+@media (max-width: 576px) {
+    .search-top .search-heading {
+        font-size: 3em;
+        text-transform: uppercase;
+        text-shadow: 0 2px 4px black;
+        padding: 0.5em 0;
+        transition: all .4s ease-in;
+        margin: auto;
+    }
+
+    .search-top .industry {
+        display: none;
+    }
+
+}
+
+@media (min-width: 577px) and (max-width: 1299px) {
+    .search-top .search-heading {
+        font-size: 4em;
+        text-transform: uppercase;
+        text-shadow: 0 2px 4px black;
+        padding: 0.5em 0;
+        transition: all .4s ease-in;
+    }
+
+    .search-top .industry {
+        height: 300px;
+        width: 400px;
+    }
+
+}
+
+@media (min-width: 1300px) {
+    .search-top .search-heading {
+        font-size: 6em;
+        text-transform: uppercase;
+        text-shadow: 0 2px 4px black;
+        padding: 0.5em 0;
+        transition: all .4s ease-in;
+    }
+
+    .search-top .industry {
+        height: 600px;
+        width: 800px;
+    }
+
+}
+
+
+.search-top .search-heading:hover {
+
+    text-shadow: 3px 3px 6px #61abb0;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    padding: 0.5em 0 0.5em 0.5em;
+}
+
+/* search mid */
+
+.search-mid .row {
+    margin: 2em auto;
+}
+
+.search-mid .search-mid-h {
+    font-size: 3em;
+    padding: 10px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #61abb0;
+}
+
+.search-mid .search-mid-h2 {
+    font-size: 3em;
+    padding: 10px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #61abb0;
+
+}
+
+.search-mid .search-mid-description {
+    text-align: left;
+    padding: 15px;
+    font-size: 1.5em;
+    border-radius: 25px;
+    box-shadow: 3px 3px 5px black, -3px -3px 5px black;
+}
+
+.search-mid .search-mid-description:hover {
+
+
+    border-radius: 25px;
+    box-shadow: 3px 3px 5px #61abb0, -3px -3px 5px #61abb0;
+}
+
+.search-mid .search-list {
+    padding: 10px;
+}
+
+.search-mid .search-list .fa-ul li {
+    font-size: 1.9em;
+    margin: 0.5em;
+
+}
+
+.search-mid .search-list .fa-ul p {
+    padding: 5px;
+    transition: all 0.8s ease-in;
+}
+
+.search-mid .search-list .fa-ul p:hover {
+
+    color: white;
+}
+
+.search-mid .search-list .fa-ul p:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 0;
+    height: 1px;
+    content: '-';
+    color: transparent;
+    background: #61abb0;
+    visibility: hidden;
+    opacity: 0;
+    z-index: -1;
+    transition: height 0.5s, width 0.5s;
+}
+
+.search-mid .search-list .fa-ul p:hover:after {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.search-mid .search-list .fa-ul .fa-li {
+    color: black;
+    transition: all .5s ease-in;
+    padding: 5px 5px 5px 5px;
+}
+
+.search-mid .search-list .fa-ul .fa-li:hover {
+    color: #61abb0;
+    padding: 5px 5px 5px 0;
+
+}
+

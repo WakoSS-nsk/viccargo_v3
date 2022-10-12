@@ -1,0 +1,2070 @@
+/* general page */
+.upper_row h1 {
+    text-align: center;
+    margin: 0.8em auto;
+    text-transform: uppercase;
+    font-size: 4em;
+    padding: 10px;
+    text-shadow: 1px 3px 5px black;
+    transition: all .4s ease-in;
+}
+
+.upper_row h1:hover {
+    padding: 10px 0 10px 10px;
+    text-shadow: 1px 3px 5px #61abb0,
+    -3px 3px 3px #61abb0;
+}
+
+@media (max-width: 576px) {
+    .main_wrap {
+        background: repeating-radial-gradient(white, gray, white, gray);
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1299px) {
+    .main_wrap {
+        background-image: url(../../img/delivery/highway_3.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+@media (min-width: 1300px) {
+    .main_wrap {
+        background-image: url(../../img/delivery/highway_3.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+.images .container-fluid {
+    text-align: center;
+}
+
+.images .options {
+    font-weight: bold;
+    font-size: 4em;
+    color: white;
+    text-shadow: 1px 3px 5px black;
+    transition: all .5s;
+}
+
+.images .options:hover {
+    font-weight: bold;
+    color: #61abb0;
+    text-shadow: 1px 3px 5px black,
+    -3px 3px 3px black;
+}
+
+.images img {
+    padding: 10px;
+    border-bottom: 4px solid white;
+    transition: all .5s;
+    color: white;
+}
+
+.images img:hover {
+    padding: 10px 0 10px 0;
+    border-bottom: 5px solid #61abb0;
+
+
+}
+
+/* end general */
+
+/* AIR */
+/* avia-header */
+@media (max-width: 576px) {
+    .avia-header-2 {
+        display: none;
+    }
+
+    .avia-header {
+        font-size: 4em;
+        text-orientation: upright;
+        writing-mode: vertical-lr;
+        margin: 0.5em 1em 5em 2.2em;
+        font-weight: bold;
+        text-shadow: 4px 4px 7px #61abb0;
+    }
+
+    .avia-page .container-fluid {
+        background-image: url(../../img/delivery/half_plane.png);
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1299px) {
+    .avia-header-2 {
+        display: none
+    }
+
+    .avia-header {
+        font-size: 4em;
+        text-orientation: upright;
+        writing-mode: vertical-lr;
+        margin: 0.5em 1em 1em 2.2em;
+        font-weight: bold;
+        text-shadow: 4px 4px 7px #61abb0;
+    }
+
+    .avia-page .container-fluid {
+        background-image: url(../../img/delivery/half_plane.png);
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 1300px) {
+    .avia-header {
+        display: none;
+    }
+
+    .avia-header-2 {
+        color: #61abb0;
+        font-size: 4em;
+        margin: 0.5em 1em 1em 2.2em;
+        font-weight: bold;
+        text-shadow: -4px 4px 7px black;
+        transition: all .4s;
+        height: 6em;
+    }
+
+    .avia-page .container-fluid {
+        background-image: url(../../img/delivery/half_plane.png);
+        background-repeat: no-repeat;
+    }
+}
+
+.avia-header-2:hover {
+    font-size: 4em;
+    margin: 0.5em 1em 1em 2.2em;
+    font-weight: bold;
+    text-shadow: 4px 4px 7px #61abb0, -4px 4px 10px #61abb0;
+    color: black;
+}
+
+
+/* avia-top*/
+@media (max-width: 576px) {
+    .avia-top .dates-list .col {
+        margin-top: 4em;
+        border-radius: 25px;
+        box-shadow: 4px 4px 5px black,
+        -4px -4px 5px black;
+        background-color: black;
+        transition: all .4s;
+    }
+
+    .avia-top .dates {
+        font-weight: bold;
+        font-size: 1.5em;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .avia-top .dates-list ul {
+        display: block;
+        margin: 1px auto;
+        color: white;
+    }
+
+    .avia-top .dates-list .fa-solid {
+        font-size: 1.7em;
+        padding-right: 10px;
+    }
+
+    .avia-top .dates-list li {
+        display: block;
+        padding: 2px 15px;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .avia-top .advantages-aero-h {
+        font-weight: bold;
+        font-size: 2em;
+        text-align: center;
+        text-shadow: -1px 1px 3px black;
+    }
+
+    .avia-top .advantages {
+        margin-top: 2em;
+    }
+
+    .avia-top .advantages .col {
+        margin-top: 2em;
+        border-radius: 25px;
+        box-shadow: 2px 2px 3px black,
+        -2px -2px 3px black;
+        background-color: white;
+        transition: all .4s;
+    }
+
+    .avia-top .advantages .fa-ul {
+        font-size: 0.8em;
+        display: table;
+    }
+
+    .avia-top .advantages .fa-ul .fa-li {
+        display: table-row;
+        text-align: left;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1023px) {
+    .avia-top .dates-list .col {
+        border-radius: 25px;
+        box-shadow: 4px 4px 5px black,
+        -4px -4px 5px black;
+        background-color: black;
+        transition: all .4s;
+    }
+
+    .avia-top .dates {
+        font-weight: bold;
+        font-size: 1.5em;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .avia-top .dates-list ul {
+        display: block;
+        margin: 1px auto;
+        color: white;
+    }
+
+    .avia-top .dates-list .fa-solid {
+        font-size: 1.7em;
+        padding-right: 10px;
+    }
+
+    .avia-top .dates-list li {
+        display: block;
+        padding: 2px 15px;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .avia-top .advantages-aero-h {
+        font-weight: bold;
+        font-size: 2em;
+        text-align: center;
+        text-shadow: -1px 1px 3px black;
+    }
+
+    .avia-top .advantages .col {
+        margin-top: 2em;
+        border-radius: 25px;
+        box-shadow: 2px 2px 3px black,
+        -2px -2px 3px black;
+        background-color: white;
+        transition: all .4s;
+    }
+
+    .avia-top .advantages .fa-ul {
+        font-size: 0.8em;
+        display: table;
+    }
+
+    .avia-top .advantages .fa-ul .fa-li {
+        display: table-row;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1299px) {
+    .avia-top .dates-list .col {
+        border-radius: 25px;
+        box-shadow: 4px 4px 5px black,
+        -4px -4px 5px black;
+        background-color: black;
+        transition: all .4s;
+    }
+
+    .avia-top .dates {
+        font-weight: bold;
+        font-size: 1.5em;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .avia-top .dates-list ul {
+        display: block;
+        margin: 1px auto;
+        color: white;
+    }
+
+    .avia-top .dates-list .fa-solid {
+        font-size: 1.7em;
+        padding-right: 10px;
+    }
+
+    .avia-top .dates-list li {
+        display: block;
+        padding: 2px 15px;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .avia-top .advantages-aero-h {
+        font-weight: bold;
+        font-size: 2em;
+        text-align: center;
+        text-shadow: -1px 1px 3px black;
+    }
+
+    .avia-top .advantages .col {
+        margin-top: 2em;
+        border-radius: 25px;
+        box-shadow: 2px 2px 3px black,
+        -2px -2px 3px black;
+        background-color: white;
+        transition: all .4s;
+    }
+
+    .avia-top .advantages .fa-ul {
+        font-size: 1.3em;
+        display: table;
+
+
+    }
+
+    .avia-top .advantages .fa-ul .fa-li {
+        display: table-row;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1300px) {
+    .avia-top .advantages .col {
+        border-radius: 25px;
+        box-shadow: 4px 4px 5px black,
+        -4px -4px 5px black;
+        background-color: white;
+        transition: all .4s;
+    }
+
+    .avia-top .dates-list .col {
+        border-radius: 25px;
+        box-shadow: 4px 4px 5px black,
+        -4px -4px 5px black;
+        background-color: black;
+        transition: all .4s;
+    }
+
+    .avia-top .advantages-aero-h {
+        font-weight: bold;
+        font-size: 2.5em;
+        text-align: center;
+        text-shadow: -1px 1px 3px black;
+    }
+
+    .avia-top .advantages .fa-ul {
+        font-size: 1.5em;
+        display: table;
+        padding: 15px;
+
+    }
+
+    .avia-top .advantages .fa-ul .fa-li {
+        display: table-row;
+        text-align: left;
+    }
+
+    .avia-top .dates {
+        font-weight: bold;
+        font-size: 1.5em;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .avia-top .dates-list ul {
+        display: table;
+        margin: 1px auto;
+        color: white;
+    }
+
+    .avia-top .dates-list .fa-solid {
+        font-size: 1.7em;
+        padding-right: 10px;
+    }
+
+    .avia-top .dates-list li {
+        display: table-cell;
+        padding: 2px 15px;
+        font-size: 1em;
+        text-align: center;
+    }
+}
+
+.avia-top .dates-list .col:hover {
+    border-radius: 25px;
+    box-shadow: 4px 4px 5px #61abb0,
+    -4px -4px 5px #61abb0;
+    background: linear-gradient(black, gray);
+}
+
+.avia-top .advantages .col:hover {
+    border-radius: 25px;
+    box-shadow: 4px 4px 5px #61abb0,
+    -4px -4px 5px #61abb0;
+    background-color: whitesmoke;
+}
+
+.container-fluid .col {
+    margin: 1.5em;
+    padding: 5px;
+}
+
+/* end avia-top */
+/* avia-mid */
+
+@media (max-width: 576px) {
+    .avia-mid .row {
+        margin: 2em auto;
+        justify-content: center;
+    }
+
+    .avia-mid .avia-description-h {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2.5em;
+        margin: 1em auto 0 auto;
+        font-weight: bold;
+    }
+
+    .avia-mid .avia-description {
+        border-radius: 25px;
+        box-shadow: 1px 1px 2px #61abb0,
+        -1px -1px 2px #61abb0;
+    }
+
+    .avia-mid .avia-description p, ol {
+        font-weight: bold;
+        font-size: 1.1em;
+
+    }
+
+}
+
+@media (min-width: 577px) and (max-width: 1023px) {
+    .avia-mid .row {
+        justify-content: center;
+        margin: 1em 2em;
+    }
+
+    .avia-mid .avia-description-h {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 5em;
+        margin: 4em auto 1em auto;
+        font-weight: bold;
+    }
+
+    .avia-mid .avia-description {
+        border-radius: 25px;
+        box-shadow: 1px 1px 2px #61abb0,
+        -1px -1px 2px #61abb0;
+    }
+
+    .avia-mid .avia-description p, ol {
+        font-weight: bold;
+        font-size: 1em;
+
+
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1299px) {
+    .avia-mid .row {
+        margin: 2em auto;
+        justify-content: center;
+    }
+
+    .avia-mid .avia-description-h {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 5em;
+        margin: 2em auto 0 auto;
+        font-weight: bold;
+    }
+
+    .avia-mid .avia-description {
+        border-radius: 25px;
+        box-shadow: 1px 1px 2px #61abb0,
+        -1px -1px 2px #61abb0;
+    }
+
+    .avia-mid .avia-description p, ol {
+        font-weight: bold;
+        font-size: 1.1em;
+
+    }
+
+}
+
+@media (min-width: 1300px) {
+    .avia-mid .row {
+        margin: 2em auto;
+        justify-content: center;
+    }
+
+    .avia-mid .avia-description-h {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 5em;
+        margin: 2em auto 0 auto;
+        font-weight: bold;
+    }
+
+    .avia-mid .avia-description {
+        border-radius: 25px;
+        box-shadow: 1px 1px 2px #61abb0,
+        -1px -1px 2px #61abb0;
+    }
+
+    .avia-mid .avia-description p, ol {
+        font-weight: bold;
+        font-size: 1.1em;
+
+    }
+
+}
+
+.avia-mid .avia-description:hover {
+    border-radius: 25px;
+    box-shadow: 3px 3px 5px #61abb0,
+    -3px -3px 5px #61abb0;
+}
+
+/* avia-mid end */
+
+/* TRAIN */
+/* train-header */
+@media (max-width: 576px) {
+    .train-header-2 {
+        display: none;
+    }
+
+    .train-header {
+        font-size: 5em;
+        margin: 0.5em 1em 5em 2.2em;
+        font-weight: bold;
+        text-shadow: 4px 4px 7px #61abb0;
+    }
+
+    .train-page .container-fluid {
+        background-image: url(../../img/delivery/half_train_2_s.png);
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1299px) {
+    .train-header-2 {
+        display: none
+    }
+
+    .train-header {
+        font-size: 4em;
+        margin: 0.5em 1em 1em 2.2em;
+        font-weight: bold;
+        text-shadow: 4px 4px 7px #61abb0;
+    }
+
+    .train-page .container-fluid {
+        background-image: url(../../img/delivery/half_train_2_s.png);
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 1300px) {
+    .train-header {
+        display: none;
+    }
+
+    .train-header-2 {
+        color: #61abb0;
+        font-size: 4em;
+        margin: 0.5em 1em 1em 2.2em;
+        font-weight: bold;
+        text-shadow: -4px 4px 7px black;
+        transition: all .4s;
+        height: 6em;
+    }
+
+    .train-page .container-fluid {
+        background-image: url(../../img/delivery/half_train_2.png);
+        background-repeat: no-repeat;
+    }
+}
+
+.train-header-2:hover {
+    font-size: 4em;
+    margin: 0.5em 1em 1em 2.2em;
+    font-weight: bold;
+    text-shadow: 4px 4px 7px #61abb0, -4px 4px 10px #61abb0;
+    color: black;
+}
+
+/* train-top*/
+@media (max-width: 576px) {
+    .train-top .dates-list .col {
+        margin: 4em auto 0 2em;
+        border-radius: 25px;
+        box-shadow: 4px 4px 5px black,
+        -4px -4px 5px black;
+        background-color: black;
+        transition: all .4s;
+    }
+
+    .train-top .dates {
+        font-weight: bold;
+        font-size: 1.5em;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .train-top .dates-list ul {
+        display: block;
+        margin: 1px auto;
+        color: white;
+    }
+
+    .train-top .dates-list .fa-solid {
+        font-size: 1.7em;
+        padding-right: 10px;
+    }
+
+    .train-top .dates-list li {
+        display: block;
+        padding: 2px 15px;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .train-top .advantages-train-h {
+        font-weight: bold;
+        font-size: 2em;
+        text-align: center;
+        text-shadow: -1px 1px 3px black;
+    }
+
+    .train-top .advantages {
+        margin: 2em 3em 2em 2em;
+
+    }
+
+    .train-top .advantages .col {
+        margin-top: 2em;
+        border-radius: 25px;
+        box-shadow: 2px 2px 3px black,
+        -2px -2px 3px black;
+        background-color: white;
+        transition: all .4s;
+    }
+
+    .train-top .advantages .fa-ul {
+        font-size: 0.8em;
+        display: table;
+    }
+
+    .train-top .advantages .fa-ul .fa-li {
+        display: table-row;
+        text-align: left;
+    }
+
+    .train-top .advantages .fa-solid {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1023px) {
+    .train-top .dates-list .col {
+        border-radius: 25px;
+        box-shadow: 4px 4px 5px black,
+        -4px -4px 5px black;
+        background-color: black;
+        transition: all .4s;
+    }
+
+    .train-top .dates {
+        font-weight: bold;
+        font-size: 1.5em;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .train-top .dates-list ul {
+        display: block;
+        margin: 1px auto;
+        color: white;
+    }
+
+    .train-top .dates-list .fa-solid {
+        font-size: 1.7em;
+        padding-right: 10px;
+    }
+
+    .train-top .dates-list li {
+        display: block;
+        padding: 2px 10px;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .train-top .dates-list {
+        margin-left: 1em;
+    }
+
+    .train-top .advantages {
+        margin-top: 2em;
+        margin-left: 1em;
+    }
+
+    .train-top .advantages-train-h {
+        font-weight: bold;
+        font-size: 2em;
+        text-align: center;
+        text-shadow: -1px 1px 3px black;
+    }
+
+    .train-top .advantages .col {
+        margin-top: 2em;
+        border-radius: 25px;
+        box-shadow: 2px 2px 3px black,
+        -2px -2px 3px black;
+        background-color: white;
+        transition: all .4s;
+    }
+
+    .train-top.advantages .fa-ul {
+        font-size: 0.8em;
+        display: table;
+    }
+
+    .train-top .advantages .fa-ul .fa-li {
+        display: table-row;
+        text-align: left;
+    }
+
+    .train-top .advantages .fa-solid {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1299px) {
+    .train-top .dates-list .col {
+        border-radius: 25px;
+        box-shadow: 4px 4px 5px black,
+        -4px -4px 5px black;
+        background-color: black;
+        transition: all .4s;
+    }
+
+    .train-top .dates {
+        font-weight: bold;
+        font-size: 1.5em;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .train-top .dates-list ul {
+        display: block;
+        margin: 1px auto;
+        color: white;
+    }
+
+    .train-top .dates-list .fa-solid {
+        font-size: 1.7em;
+        padding-right: 10px;
+    }
+
+    .train-top .dates-list li {
+        display: block;
+        padding: 2px 15px;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .train-top .advantages {
+        margin-top: 2em;
+    }
+
+    .train-top .advantages-train-h {
+        font-weight: bold;
+        font-size: 2em;
+        text-align: center;
+        text-shadow: -1px 1px 3px black;
+    }
+
+    .train-top .advantages .col {
+        margin-top: 2em;
+        border-radius: 25px;
+        box-shadow: 2px 2px 3px black,
+        -2px -2px 3px black;
+        background-color: white;
+        transition: all .4s;
+    }
+
+    .train-top .advantages .fa-ul {
+        font-size: 1.3em;
+        display: table;
+
+
+    }
+
+    .train-top .advantages .fa-ul .fa-li {
+        display: table-row;
+        text-align: left;
+    }
+
+    .train-top .advantages .fa-solid {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .train-top .d-grid {
+        margin-left: 10em;
+    }
+
+    .train-top .advantages {
+        margin-top: 2em;
+    }
+
+    .train-top .advantages .col {
+        border-radius: 25px;
+        box-shadow: 4px 4px 5px black,
+        -4px -4px 5px black;
+        background-color: white;
+        transition: all .4s;
+    }
+
+    .train-top .dates-list .col {
+        border-radius: 25px;
+        box-shadow: 4px 4px 5px black,
+        -4px -4px 5px black;
+        background-color: black;
+        transition: all .4s;
+    }
+
+    .train-top .advantages-train-h {
+        font-weight: bold;
+        font-size: 2.5em;
+        text-align: center;
+        text-shadow: -1px 1px 3px black;
+    }
+
+    .train-top .advantages .fa-ul {
+        font-size: 1.5em;
+        display: table;
+        padding: 15px;
+
+    }
+
+    .train-top .advantages .fa-ul .fa-li {
+        display: table-row;
+        text-align: left;
+    }
+
+    .train-top .advantages .fa-solid {
+        padding: 10px;
+    }
+
+    .train-top .dates {
+        font-weight: bold;
+        font-size: 1.5em;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .train-top .dates-list ul {
+        display: table;
+        margin: 1px auto;
+        color: white;
+    }
+
+    .train-top.dates-list .fa-solid {
+        font-size: 1.7em;
+        padding-right: 10px;
+    }
+
+    .train-top .dates-list li {
+        display: table-cell;
+        padding: 2px 15px;
+        font-size: 1em;
+        text-align: center;
+    }
+}
+
+.train-top .dates-list .col:hover {
+    border-radius: 25px;
+    box-shadow: 4px 4px 5px #61abb0,
+    -4px -4px 5px #61abb0;
+    background: linear-gradient(black, gray);
+}
+
+.train-top .advantages .col:hover {
+    border-radius: 25px;
+    box-shadow: 4px 4px 5px #61abb0,
+    -4px -4px 5px #61abb0;
+    background-color: whitesmoke;
+}
+
+.container-fluid .col {
+    margin: 1.5em;
+    padding: 5px;
+}
+
+/* end train-top */
+
+/* train-mid */
+
+@media (max-width: 576px) {
+    .train-mid .row {
+        margin: 2em auto;
+        justify-content: center;
+    }
+
+    .train-mid .train-description-h {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2.5em;
+        margin: 1em auto 0 auto;
+        font-weight: bold;
+    }
+
+    .train-mid .train-description {
+        border-radius: 25px;
+        box-shadow: 1px 1px 2px #61abb0,
+        -1px -1px 2px #61abb0;
+    }
+
+    .train-mid .train-description p, ol {
+        font-weight: bold;
+        font-size: 1.1em;
+
+    }
+
+}
+
+@media (min-width: 577px) and (max-width: 1023px) {
+    .train-mid .row {
+        justify-content: center;
+        margin: 1em 2em;
+    }
+
+    .train-mid .train-description-h {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 5em;
+        margin: 1em auto 1em auto;
+        font-weight: bold;
+    }
+
+    .train-mid .train-description {
+        border-radius: 25px;
+        box-shadow: 1px 1px 2px #61abb0,
+        -1px -1px 2px #61abb0;
+    }
+
+    .train-mid .train-description p, ol {
+        font-weight: bold;
+        font-size: 1em;
+
+
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1299px) {
+    .train-mid .row {
+        margin: 2em auto;
+        justify-content: center;
+    }
+
+    .train-mid .train-description-h {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 5em;
+        margin: 1em auto 0 auto;
+        font-weight: bold;
+    }
+
+    .train-mid .train-description {
+        border-radius: 25px;
+        box-shadow: 1px 1px 2px #61abb0,
+        -1px -1px 2px #61abb0;
+    }
+
+    .train-mid .train-description p, ol {
+        font-weight: bold;
+        font-size: 1.1em;
+
+    }
+
+}
+
+@media (min-width: 1300px) {
+    .train-mid .row {
+        margin: 1em auto;
+        justify-content: center;
+    }
+
+    .train-mid .train-description-h {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 5em;
+        margin: 1em auto 0 auto;
+        font-weight: bold;
+    }
+
+    .train-mid .train-description {
+        border-radius: 25px;
+        box-shadow: 1px 1px 2px #61abb0,
+        -1px -1px 2px #61abb0;
+    }
+
+    .train-mid .train-description p, ol {
+        font-weight: bold;
+        font-size: 1.1em;
+
+    }
+
+}
+
+.train-mid .train-description:hover {
+    border-radius: 25px;
+    box-shadow: 3px 3px 5px #61abb0,
+    -3px -3px 5px #61abb0;
+}
+
+/* train-mid end */
+
+/* TRUCK */
+/* truck-header */
+@media (max-width: 576px) {
+    .truck-header-2 {
+        display: none;
+    }
+
+    .truck-header {
+        font-size: 5em;
+        margin: 1.5em 1em 2em 3em;
+        text-orientation: upright;
+        writing-mode: vertical-lr;
+        font-weight: bold;
+        text-shadow: 4px 4px 7px #61abb0;
+    }
+
+    .truck-page .container-fluid {
+        background-image: url(../../img/delivery/trucks.png);
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1299px) {
+    .truck-header-2 {
+        display: none
+    }
+
+    .truck-header {
+        font-size: 4em;
+        margin: 0.5em 1em 1em 6em;
+        font-weight: bold;
+        text-shadow: 4px 4px 7px #61abb0;
+    }
+
+    .truck-page .container-fluid {
+        background-image: url(../../img/delivery/trucks_m.png);
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 1300px) {
+    .truck-header {
+        display: none;
+    }
+
+    .truck-header-2 {
+        color: #61abb0;
+        font-size: 4em;
+        margin: 0.5em 1em 1em 2.2em;
+        font-weight: bold;
+        text-shadow: -4px 4px 7px black;
+        transition: all .4s;
+        height: 6em;
+    }
+
+    .truck-page .container-fluid {
+        background-image: url(../../img/delivery/trucks_2.png);
+        background-repeat: no-repeat;
+    }
+}
+
+.truck-header-2:hover {
+    font-size: 4em;
+    margin: 0.5em 1em 1em 2.2em;
+    font-weight: bold;
+    text-shadow: 4px 4px 7px #61abb0, -4px 4px 10px #61abb0;
+    color: black;
+}
+
+/* truck-top*/
+@media (max-width: 576px) {
+    .truck-top .dates-list .col {
+        margin: 4em auto 0 2em;
+        border-radius: 25px;
+        box-shadow: 4px 4px 5px black,
+        -4px -4px 5px black;
+        background-color: black;
+        transition: all .4s;
+    }
+
+    .truck-top .dates {
+        font-weight: bold;
+        font-size: 1.5em;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .truck-top .dates-list ul {
+        display: block;
+        margin: 1px auto;
+        color: white;
+    }
+
+    .truck-top .dates-list .fa-solid {
+        font-size: 1.7em;
+        padding-right: 10px;
+    }
+
+    .truck-top .dates-list li {
+        display: block;
+        padding: 2px 15px;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .truck-top .advantages-truck-h {
+        font-weight: bold;
+        font-size: 2em;
+        text-align: center;
+        text-shadow: -1px 1px 3px black;
+    }
+
+    .truck-top .advantages {
+        margin: 2em 3em 2em 2em;
+
+    }
+
+    .truck-top .advantages .col {
+        margin-top: 2em;
+        border-radius: 25px;
+        box-shadow: 2px 2px 3px black,
+        -2px -2px 3px black;
+        background-color: white;
+        transition: all .4s;
+    }
+
+    .truck-top .advantages .fa-ul {
+        font-size: 0.8em;
+        display: table;
+    }
+
+    .truck-top .advantages .fa-ul .fa-li {
+        display: table-row;
+        text-align: left;
+    }
+
+    .truck-top .advantages .fa-solid {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1023px) {
+    .truck-top .dates-list .col {
+        border-radius: 25px;
+        box-shadow: 4px 4px 5px black,
+        -4px -4px 5px black;
+        background-color: black;
+        transition: all .4s;
+    }
+
+    .truck-top .dates {
+        font-weight: bold;
+        font-size: 1.5em;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .truck-top .dates-list ul {
+        display: block;
+        margin: 1px auto;
+        color: white;
+    }
+
+    .truck-top .dates-list .fa-solid {
+        font-size: 1.7em;
+        padding-right: 10px;
+    }
+
+    .truck-top .dates-list li {
+        display: block;
+        padding: 2px 8px;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .truck-top .dates-list {
+        margin-left: 13.5em;
+    }
+
+    .truck-top .advantages {
+        margin-top: 2em;
+        margin-left: 13.5em;
+    }
+
+    .truck-top .advantages-truck-h {
+        font-weight: bold;
+        font-size: 2em;
+        text-align: center;
+        text-shadow: -1px 1px 3px black;
+    }
+
+    .truck-top .advantages .col {
+        margin-top: 2em;
+        border-radius: 25px;
+        box-shadow: 2px 2px 3px black,
+        -2px -2px 3px black;
+        background-color: white;
+        transition: all .4s;
+    }
+
+    .truck-top.advantages .fa-ul {
+        font-size: 1em;
+        display: table;
+    }
+
+    .truck-top .advantages .fa-ul .fa-li {
+        display: table-row;
+        text-align: left;
+    }
+
+    .truck-top .advantages .fa-solid {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1299px) {
+    .truck-top .dates-list .col {
+        border-radius: 25px;
+        box-shadow: 4px 4px 5px black,
+        -4px -4px 5px black;
+        background-color: black;
+        transition: all .4s;
+    }
+
+    .truck-top .dates {
+        font-weight: bold;
+        font-size: 1.5em;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .truck-top .dates-list ul {
+        display: block;
+        margin: 1px auto;
+        color: white;
+    }
+
+    .truck-top .dates-list .fa-solid {
+        font-size: 1.7em;
+        padding-right: 10px;
+    }
+
+    .truck-top .dates-list li {
+        display: block;
+        padding: 2px 15px;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .truck-top .advantages {
+        margin-top: 2em;
+    }
+
+    .truck-top .advantages-truck-h {
+        font-weight: bold;
+        font-size: 2em;
+        text-align: center;
+        text-shadow: -1px 1px 3px black;
+    }
+
+    .truck-top .advantages .col {
+        margin-top: 2em;
+        border-radius: 25px;
+        box-shadow: 2px 2px 3px black,
+        -2px -2px 3px black;
+        background-color: white;
+        transition: all .4s;
+    }
+
+    .truck-top .advantages .fa-ul {
+        font-size: 1.3em;
+        display: table;
+
+
+    }
+
+    .truck-top .advantages .fa-ul .fa-li {
+        display: table-row;
+        text-align: left;
+    }
+
+    .truck-top .advantages .fa-solid {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .truck-top .d-grid {
+        margin-left: 10em;
+    }
+
+    .truck-top .advantages {
+        margin-top: 2em;
+    }
+
+    .truck-top .advantages .col {
+        border-radius: 25px;
+        box-shadow: 4px 4px 5px black,
+        -4px -4px 5px black;
+        background-color: white;
+        transition: all .4s;
+    }
+
+    .truck-top .dates-list .col {
+        border-radius: 25px;
+        box-shadow: 4px 4px 5px black,
+        -4px -4px 5px black;
+        background-color: black;
+        transition: all .4s;
+    }
+
+    .truck-top .advantages-truck-h {
+        font-weight: bold;
+        font-size: 2.5em;
+        text-align: center;
+        text-shadow: -1px 1px 3px black;
+    }
+
+    .truck-top .advantages .fa-ul {
+        font-size: 1.5em;
+        display: table;
+        padding: 15px;
+
+    }
+
+    .truck-top .advantages .fa-ul .fa-li {
+        display: table-row;
+        text-align: left;
+    }
+
+    .truck-top .advantages .fa-solid {
+        padding: 10px;
+    }
+
+    .truck-top .dates {
+        font-weight: bold;
+        font-size: 1.5em;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .truck-top .dates-list ul {
+        display: table;
+        margin: 1px auto;
+        color: white;
+    }
+
+    .truck-top.dates-list .fa-solid {
+        font-size: 1.7em;
+        padding-right: 10px;
+    }
+
+    .truck-top .dates-list li {
+        display: table-cell;
+        padding: 2px 15px;
+        font-size: 1.2em;
+        text-align: center;
+    }
+}
+
+.truck-top .dates-list .col:hover {
+    border-radius: 25px;
+    box-shadow: 4px 4px 5px #61abb0,
+    -4px -4px 5px #61abb0;
+    background: linear-gradient(black, gray);
+}
+
+.truck-top .advantages .col:hover {
+    border-radius: 25px;
+    box-shadow: 4px 4px 5px #61abb0,
+    -4px -4px 5px #61abb0;
+    background-color: whitesmoke;
+}
+
+.container-fluid .col {
+    margin: 1.5em;
+    padding: 5px;
+}
+
+/* end truck-top */
+
+/* truck-mid */
+
+@media (max-width: 576px) {
+    .truck-mid .row {
+        margin: 2em auto;
+        justify-content: center;
+    }
+
+    .truck-mid .truck-description-h {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2.5em;
+        margin: 1em auto 0 auto;
+        font-weight: bold;
+    }
+
+    .truck-mid .truck-description {
+        border-radius: 25px;
+        box-shadow: 1px 1px 2px #61abb0,
+        -1px -1px 2px #61abb0;
+    }
+
+    .truck-mid .truck-description p, ol {
+        font-weight: bold;
+        font-size: 1.1em;
+
+    }
+
+}
+
+@media (min-width: 577px) and (max-width: 1023px) {
+    .truck-mid .row {
+        justify-content: center;
+        margin: 1em 2em;
+    }
+
+    .truck-mid .truck-description-h {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 5em;
+        margin: 1em auto 1em auto;
+        font-weight: bold;
+    }
+
+    .truck-mid .truck-description {
+        border-radius: 25px;
+        box-shadow: 1px 1px 2px #61abb0,
+        -1px -1px 2px #61abb0;
+    }
+
+    .truck-mid .truck-description p, ol {
+        font-weight: bold;
+        font-size: 1em;
+
+
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1299px) {
+    .truck-mid .row {
+        margin: 2em auto;
+        justify-content: center;
+    }
+
+    .truck-mid .truck-description-h {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 5em;
+        margin: 1em auto 0 auto;
+        font-weight: bold;
+    }
+
+    .truck-mid .truck-description {
+        border-radius: 25px;
+        box-shadow: 1px 1px 2px #61abb0,
+        -1px -1px 2px #61abb0;
+    }
+
+    .truck-mid .truck-description p, ol {
+        font-weight: bold;
+        font-size: 1.1em;
+
+    }
+
+}
+
+@media (min-width: 1300px) {
+    .truck-mid .row {
+        margin: 1em auto;
+        justify-content: center;
+    }
+
+    .truck-mid .truck-description-h {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 5em;
+        margin: 1em auto 0 auto;
+        font-weight: bold;
+    }
+
+    .truck-mid .truck-description {
+        border-radius: 25px;
+        box-shadow: 1px 1px 2px #61abb0,
+        -1px -1px 2px #61abb0;
+    }
+
+    .truck-mid .truck-description p, ol {
+        font-weight: bold;
+        font-size: 1.1em;
+
+    }
+
+}
+
+.truck-mid .truck-description:hover {
+    border-radius: 25px;
+    box-shadow: 3px 3px 5px #61abb0,
+    -3px -3px 5px #61abb0;
+}
+
+/* truck-mid end */
+
+/* SHIP */
+/* ship-header */
+@media (max-width: 576px) {
+    .ship-header-2 {
+        display: none;
+    }
+
+    .ship-header {
+        font-size: 5em;
+        margin: 0.5em 1em 5em 0.9em;
+        font-weight: bold;
+        text-shadow: 4px 4px 7px #61abb0;
+    }
+
+    .ship-page .container-fluid {
+        background-image: url(../../img/delivery/half_ship_2_s.png);
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1299px) {
+    .ship-header-2 {
+        display: none
+    }
+
+    .ship-header {
+        font-size: 5em;
+        margin: 0.5em 1em 1em 3em;
+        font-weight: bold;
+        text-shadow: 4px 4px 7px #61abb0;
+    }
+
+    .ship-page .container-fluid {
+        background-image: url(../../img/delivery/half_ship_2.png);
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 1300px) {
+    .ship-header {
+        display: none;
+    }
+
+    .ship-header-2 {
+        color: #61abb0;
+        font-size: 4em;
+        margin: 0.5em 1em 1em 2.2em;
+        font-weight: bold;
+        text-shadow: -4px 4px 7px black;
+        transition: all .4s;
+        height: 6em;
+    }
+
+    .ship-page .container-fluid {
+        background-image: url(../../img/delivery/half_ship_2.png);
+        background-repeat: no-repeat;
+    }
+}
+
+.ship-header-2:hover {
+    font-size: 4em;
+    margin: 0.5em 1em 1em 2.2em;
+    font-weight: bold;
+    text-shadow: 4px 4px 7px #61abb0, -4px 4px 10px #61abb0;
+    color: black;
+}
+
+/* ship-top*/
+@media (max-width: 576px) {
+    .ship-top .dates-list {
+        margin: auto;
+    }
+
+    .ship-top .dates-list .col {
+        margin: 4em auto 0 0.5em;
+        border-radius: 25px;
+        box-shadow: 4px 4px 5px black,
+        -4px -4px 5px black;
+        background-color: black;
+        transition: all .4s;
+    }
+
+    .ship-top .dates {
+        font-weight: bold;
+        font-size: 1.5em;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .ship-top .dates-list ul {
+        display: block;
+        margin: 1px auto;
+        color: white;
+    }
+
+    .ship-top .dates-list .fa-solid {
+        font-size: 1.7em;
+        padding-right: 10px;
+    }
+
+    .ship-top .dates-list li {
+        display: block;
+        padding: 2px 15px;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .ship-top .advantages-ship-h {
+        font-weight: bold;
+        font-size: 2em;
+        text-align: center;
+        text-shadow: -1px 1px 3px black;
+    }
+
+    .ship-top .advantages {
+        margin: 1em auto;
+
+    }
+
+    .ship-top .advantages .col {
+        margin-top: 2em;
+        border-radius: 25px;
+        box-shadow: 2px 2px 3px black,
+        -2px -2px 3px black;
+        background-color: white;
+        transition: all .4s;
+    }
+
+    .ship-top .advantages .fa-ul {
+        font-size: 0.8em;
+        display: table;
+    }
+
+    .ship-top .advantages .fa-ul .fa-li {
+        display: table-row;
+        text-align: left;
+    }
+
+    .ship-top .advantages .fa-solid {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1023px) {
+    .ship-top .dates-list .col {
+        border-radius: 25px;
+        box-shadow: 4px 4px 5px black,
+        -4px -4px 5px black;
+        background-color: black;
+        transition: all .4s;
+    }
+
+    .ship-top .dates {
+        font-weight: bold;
+        font-size: 1.5em;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .ship-top .dates-list ul {
+        display: block;
+        margin: 1px auto;
+        color: white;
+    }
+
+    .ship-top .dates-list .fa-solid {
+        font-size: 1.7em;
+        padding-right: 10px;
+    }
+
+    .ship-top .dates-list li {
+        display: block;
+        padding: 2px 10px;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .ship-top .dates-list {
+        margin-left: 8em;
+    }
+
+    .ship-top .advantages {
+        margin-top: 2em;
+        margin-left: 8em;
+    }
+
+    .ship-top .advantages-ship-h {
+        font-weight: bold;
+        font-size: 2em;
+        text-align: center;
+        text-shadow: -1px 1px 3px black;
+    }
+
+    .ship-top .advantages .col {
+        margin-top: 2em;
+        border-radius: 25px;
+        box-shadow: 2px 2px 3px black,
+        -2px -2px 3px black;
+        background-color: white;
+        transition: all .4s;
+    }
+
+    .ship-top.advantages .fa-ul {
+        font-size: 0.8em;
+        display: table;
+    }
+
+    .ship-top .advantages .fa-ul .fa-li {
+        display: table-row;
+        text-align: left;
+    }
+
+    .ship-top .advantages .fa-solid {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1299px) {
+    .ship-top .dates-list .col {
+        border-radius: 25px;
+        box-shadow: 4px 4px 5px black,
+        -4px -4px 5px black;
+        background-color: black;
+        transition: all .4s;
+    }
+
+    .ship-top .dates {
+        font-weight: bold;
+        font-size: 1.5em;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .ship-top .dates-list ul {
+        display: block;
+        margin: 1px auto;
+        color: white;
+    }
+
+    .ship-top .dates-list .fa-solid {
+        font-size: 1.7em;
+        padding-right: 10px;
+    }
+
+    .ship-top .dates-list li {
+        display: block;
+        padding: 2px 15px;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .ship-top .advantages {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .ship-top .advantages-train-h {
+        font-weight: bold;
+        font-size: 2em;
+        text-align: center;
+        text-shadow: -1px 1px 3px black;
+    }
+
+    .ship-top .advantages .col {
+        margin-top: 2em;
+        border-radius: 25px;
+        box-shadow: 2px 2px 3px black,
+        -2px -2px 3px black;
+        background-color: white;
+        transition: all .4s;
+    }
+
+    .ship-top .advantages .fa-ul {
+        font-size: 1.3em;
+        display: table;
+
+
+    }
+
+    .ship-top .advantages .fa-ul .fa-li {
+        display: table-row;
+        text-align: left;
+    }
+
+    .ship-top .advantages .fa-solid {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .ship-top .d-grid {
+        margin-left: 2em;
+    }
+
+    .ship-top .advantages {
+        margin-top: 2em;
+    }
+
+    .ship-top .advantages .col {
+        border-radius: 25px;
+        box-shadow: 4px 4px 5px black,
+        -4px -4px 5px black;
+        background-color: white;
+        transition: all .4s;
+    }
+
+    .ship-top .dates-list .col {
+        border-radius: 25px;
+        box-shadow: 4px 4px 5px black,
+        -4px -4px 5px black;
+        background-color: black;
+        transition: all .4s;
+    }
+
+    .ship-top .advantages-ship-h {
+        font-weight: bold;
+        font-size: 2.5em;
+        text-align: center;
+        text-shadow: -1px 1px 3px black;
+    }
+
+    .ship-top .advantages .fa-ul {
+        font-size: 1.5em;
+        display: table;
+        padding: 15px;
+
+    }
+
+    .ship-top .advantages .fa-ul .fa-li {
+        display: table-row;
+        text-align: left;
+    }
+
+    .ship-top .advantages .fa-solid {
+        padding: 10px;
+    }
+
+    .ship-top .dates {
+        font-weight: bold;
+        font-size: 1.5em;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .ship-top .dates-list ul {
+        display: table;
+        margin: 1px auto;
+        color: white;
+    }
+
+    .ship-top.dates-list .fa-solid {
+        font-size: 1.7em;
+        padding-right: 10px;
+    }
+
+    .ship-top .dates-list li {
+        display: table-cell;
+        padding: 2px 15px;
+        font-size: 1em;
+        text-align: center;
+    }
+}
+
+.ship-top .dates-list .col:hover {
+    border-radius: 25px;
+    box-shadow: 4px 4px 5px #61abb0,
+    -4px -4px 5px #61abb0;
+    background: linear-gradient(black, gray);
+}
+
+.ship-top .advantages .col:hover {
+    border-radius: 25px;
+    box-shadow: 4px 4px 5px #61abb0,
+    -4px -4px 5px #61abb0;
+    background-color: whitesmoke;
+}
+
+.container-fluid .col {
+    margin: 1.5em;
+    padding: 5px;
+}
+
+/* end ship-top */
+
+/* ship-mid */
+
+@media (max-width: 576px) {
+    .ship-mid .row {
+        margin: 2em auto;
+        justify-content: center;
+    }
+
+    .ship-mid .ship-description-h {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2.5em;
+        margin: 1em auto 0 auto;
+        font-weight: bold;
+    }
+
+    .ship-mid .ship-description {
+        border-radius: 25px;
+        box-shadow: 1px 1px 2px #61abb0,
+        -1px -1px 2px #61abb0;
+    }
+
+    .ship-mid .ship-description p, ol {
+        font-weight: bold;
+        font-size: 1.1em;
+
+    }
+
+}
+
+@media (min-width: 577px) and (max-width: 1023px) {
+    .ship-mid .row {
+        justify-content: center;
+        margin: 2em 2em;
+    }
+
+    .ship-mid .ship-description-h {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 5em;
+        margin: 1em auto 1em auto;
+        font-weight: bold;
+    }
+
+    .ship-mid .ship-description {
+        border-radius: 25px;
+        box-shadow: 1px 1px 2px #61abb0,
+        -1px -1px 2px #61abb0;
+    }
+
+    .ship-mid .ship-description p, ol {
+        font-weight: bold;
+        font-size: 1em;
+
+
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1299px) {
+    .ship-mid .row {
+        margin: 2em auto;
+        justify-content: center;
+    }
+
+    .ship-mid .ship-description-h {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 5em;
+        margin: 1em auto 0 auto;
+        font-weight: bold;
+    }
+
+    .ship-mid .ship-description {
+        border-radius: 25px;
+        box-shadow: 1px 1px 2px #61abb0,
+        -1px -1px 2px #61abb0;
+    }
+
+    .ship-mid .ship-description p, ol {
+        font-weight: bold;
+        font-size: 1.1em;
+
+    }
+
+}
+
+@media (min-width: 1300px) {
+    .ship-mid .row {
+        margin: 1em auto;
+        justify-content: center;
+    }
+
+    .ship-mid .ship-description-h {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 5em;
+        margin: 1em auto 0 auto;
+        font-weight: bold;
+    }
+
+    .ship-mid .ship-description {
+        border-radius: 25px;
+        box-shadow: 1px 1px 2px #61abb0,
+        -1px -1px 2px #61abb0;
+    }
+
+    .train-mid .ship-description p, ol {
+        font-weight: bold;
+        font-size: 1.1em;
+
+    }
+
+}
+
+.ship-mid .train-description:hover {
+    border-radius: 25px;
+    box-shadow: 3px 3px 5px #61abb0,
+    -3px -3px 5px #61abb0;
+}
+
+/* ship-mid end */
